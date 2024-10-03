@@ -7,9 +7,7 @@ export const MobilePreview = ({ backgroundImage, imageUrl }) => (
       backgroundImage: `url(${backgroundImage})`,
       backgroundRepeat: "no-repeat",
       backgroundSize: "25rem",
-      display: "flex",
-      alignItems: "center",
-      justifyContent: "center",
+      backgroundPosition: "center",
     }}
   >
     <Image

@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.template-card {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .template-card {
+    /* Adjust these values based on your design needs */
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}

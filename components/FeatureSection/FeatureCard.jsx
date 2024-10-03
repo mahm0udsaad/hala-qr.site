@@ -5,15 +5,15 @@ import React from "react";
 
 function FeatureCard({ imageSrc, title, description }) {
   return (
-    <div className="flex gap-6 items-start max-w-1/2">
+    <div className="flex sm:flex-row flex-col justify-center items-center  gap-6 sm:items-start ">
       <img
         loading="lazy"
         src={imageSrc}
         alt=""
         className="object-contain shrink-0 aspect-square w-[120px]"
       />
-      <div className="flex gap-2 items-start ">
-        <div className="flex flex-col justify-center ">
+      <div className="w-full flex gap-2 items-start">
+        <div className=" flex flex-col justify-center ">
           <h3 className="text-2xl font-semibold leading-7 text-black">
             {title}
           </h3>
